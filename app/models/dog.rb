@@ -5,10 +5,11 @@ class Dog
     @name = name 
     @breed = breed
     @age = age
+    name << all
   end 
   
   def all 
-    
+    all = [ ]
   end 
   
 end 
