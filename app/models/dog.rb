@@ -15,4 +15,3 @@ class Dog
   
 end 
 
-pluto = Dog.new("Pluto", 13, "hound")
