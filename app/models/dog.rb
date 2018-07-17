@@ -9,8 +9,8 @@ class Dog
     @@dog_array << self
   end 
   
-  def all 
-    return @dog_array
+  def self.all 
+    @dog_array
   end 
   
 end 
