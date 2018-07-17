@@ -1,15 +1,18 @@
 class Dog
-  attr_accessor :name, :breed, :age
+  attr_accessor :name, :age, :breed
+  @@dog_array = [ ]
   
-  def initialize(name,breed,age)
+  def initialize(name, age, breed)
     @name = name 
     @breed = breed
     @age = age
-    name << all
+    @@dog_array << self
   end 
   
   def all 
-    all = [ ]
+    return @dog_array
   end 
   
 end 
+
+pluto = Dog.new("Pluto", 13, "hound")
